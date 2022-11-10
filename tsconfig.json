@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "esModuleInterop": true,                                               
+    "forceConsistentCasingInFileNames": true,          
+    "strict": true,                    
+    "skipLibCheck": true,
+    "declaration": true, // 生成定义文件
+    "declarationMap": false, // 生成定义sourceMap
+    "declarationDir": "./dist/types", // 定义文件输出目录
+    "types": ["node"]
+  },
+  "include": ["src/**/*", ".eslintrc.cjs"],
+  "exclude": ["node_modules", "dist"]
+}
